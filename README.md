@@ -370,3 +370,151 @@
   </style>
 </head>
 <body>
+<header>
+    <div class="header-inner">
+      <div class="brand">
+        <h1>StyleHub</h1>
+        <span>Loja de moda online</span>
+      </div>
+
+      <nav aria-label="Navegação principal">
+        <ul class="nav-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#vantagens">Vantagens</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h2>Moda versátil com layout responsivo e visual profissional</h2>
+          <p>
+            A StyleHub apresenta uma proposta de loja virtual de roupas com foco em navegação intuitiva,
+            organização semântica e adaptação a diferentes tamanhos de tela.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#produtos">Ver coleção</a>
+            <a class="btn btn-secondary" href="#vantagens">Saiba mais</a>
+          </div>
+        </div>
+
+        <div class="hero-banner">
+          <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80" alt="Modelo usando roupa casual moderna em ambiente claro">
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="produtos">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2>Produtos em destaque</h2>
+            <p>Os cards se ajustam automaticamente ao conteúdo e ao espaço disponível da tela.</p>
+          </div>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="Camiseta branca básica dobrada sobre superfície neutra">
+            </div>
+            <div class="card-body">
+              <span class="tag">Casual</span>
+              <h3>Camiseta Essential</h3>
+              <p>Modelo básico com caimento confortável e visual minimalista para o dia a dia.</p>
+              <div class="price-row">
+                <span class="price">R$ 59,90</span>
+                <a class="btn btn-secondary" href="#">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80" alt="Calça jeans azul em corpo de modelo em pé">
+            </div>
+            <div class="card-body">
+              <span class="tag">Jeans</span>
+              <h3>Calça Urban Fit</h3>
+              <p>Peça versátil com estilo moderno, ideal para compor looks casuais e urbanos.</p>
+              <div class="price-row">
+                <span class="price">R$ 119,90</span>
+                <a class="btn btn-secondary" href="#">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=800&q=80" alt="Jaqueta bege feminina em ensaio de moda">
+            </div>
+            <div class="card-body">
+              <span class="tag">Destaque</span>
+              <h3>Jaqueta Classic Layer</h3>
+              <p>Acabamento elegante e estrutura leve para diferentes ocasiões e estações.</p>
+              <div class="price-row">
+                <span class="price">R$ 179,90</span>
+                <a class="btn btn-secondary" href="#">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media">
+              <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80" alt="Vestido claro em vitrine de loja de moda">
+            </div>
+            <div class="card-body">
+              <span class="tag">Novo</span>
+              <h3>Vestido Soft Line</h3>
+              <p>Silhueta leve, tecido confortável e proposta visual sofisticada para uso diário.</p>
+              <div class="price-row">
+                <span class="price">R$ 139,90</span>
+                <a class="btn btn-secondary" href="#">Comprar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits" id="vantagens">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2>Vantagens da loja</h2>
+            <p>Seções organizadas para destacar usabilidade, clareza visual e boa experiência de navegação.</p>
+          </div>
+        </div>
+
+        <div class="benefits-grid">
+          <article class="benefit-card">
+            <h3>Navegação simples</h3>
+            <p>Menu claro, estrutura semântica e leitura fácil em telas pequenas e grandes.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Layout responsivo</h3>
+            <p>Os blocos se reorganizam conforme o espaço disponível, sem depender de larguras fixas.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Visual consistente</h3>
+            <p>Espaçamentos, tipografia e cards seguem uma identidade única em toda a interface.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="footer-inner">
+      <p><strong>StyleHub</strong> — Projeto acadêmico de loja virtual responsiva.</p>
+      <p>Contato: stylehub@exemplo.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>
