@@ -1,0 +1,56 @@
+.container {
+  width: min(1120px, 90%);
+  margin: 0 auto;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+@layer layout {
+
+  .container {
+    width: min(1120px, 90%);
+    margin-inline: auto;
+  }
+
+  .cards-grid,
+  .benefits-grid {
+
+    display: grid;
+
+    gap: clamp(1rem, 2vw, 2rem);
+
+  }
+
+  .cards-grid {
+
+    grid-template-columns:
+      repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+
+  }
+
+  .benefits-grid {
+
+    grid-template-columns:
+      repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+
+  }
+
+}
+@layer components {
+  .card {
+    padding: 1rem;
+  }
+
+  .button {
+    background: blue;
+  }
+}
